@@ -1,0 +1,23 @@
+{
+    "name": "ashon-ikon/simple-event-timer",
+    "description": "Very simple timer written in PHP",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Yinka Asonibare",
+            "email": "yinka.asonibare@theiconic.com.au"
+        }
+    ],
+    "autoload": {
+        "classmap" : [
+            "Timer/",
+            "test/"
+        ]
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
+    }
+}
